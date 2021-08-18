@@ -1,0 +1,2 @@
+hardware é tudo que é tangível, i.e., as partes mecânicas de um computador.
+software é tudo que é intangível, i.e., todas as linhas de código que compõem um programa ou aplicação

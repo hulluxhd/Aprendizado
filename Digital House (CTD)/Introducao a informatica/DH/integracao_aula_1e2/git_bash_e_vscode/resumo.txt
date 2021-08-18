@@ -1,0 +1,2 @@
+git bash é o terminal do software git. 
+Vscode é o editor de textos mais popular entre os devs, pois aceita uma ampla gama de extensões e permite a centralização de códigos

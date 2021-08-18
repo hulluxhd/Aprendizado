@@ -1,0 +1,1 @@
+temos a interface de usuário CLI - command line interface -, GUI - graphic user interface.

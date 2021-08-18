@@ -1,0 +1,1 @@
+o usuário faz uma requisição para um servidor, que lhe envia de volta uma resposta à esta requisição
