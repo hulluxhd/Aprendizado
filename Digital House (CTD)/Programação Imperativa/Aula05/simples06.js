@@ -1,3 +1,5 @@
 function imc(cm, kg){
-    ret
+    resultado = kg/(cm^2)
+    console.log(resultado)
 }
+imc(1.72,70)
