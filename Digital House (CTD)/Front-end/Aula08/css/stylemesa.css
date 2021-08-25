@@ -8,12 +8,17 @@ h1{
     font-family: hina Mincho;
 }
 .media-picture{
-    width: 400px;
-    background-image: url(https://lh3.googleusercontent.com/proxy/GQMOeLWqpFM2Nx7ijMBhb5-D2aZ2iQUtF_edRpJfBN5af35TwomRByaarqfv-qy7wP-Jar_SGZIwERLuQNYZ4SK_brgI6XJcc7qDmXjKIn55hRbH6NHAyzkgMj2FYLPiJQ2LaNcP7-Uvygq1iQNmGs13ZUlH8t2BH20);
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/Endgame-5.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 .review-score{
     color: white;
+    background-color: #e6bd09;
+    padding: 12px;
 }
 h2{
     color: steelblue;
@@ -25,4 +30,7 @@ p{
 }
 a{
     color: yellow;
+}
+#teste{
+    color: red;
 }
