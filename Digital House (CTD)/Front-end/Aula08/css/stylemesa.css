@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+body{
+    background-color: #131313;
+}
+h1{
+    color: white;
+    font-family: hina Mincho;
+}
+.media-picture{
+    width: 400px;
+    background-image: url(https://lh3.googleusercontent.com/proxy/GQMOeLWqpFM2Nx7ijMBhb5-D2aZ2iQUtF_edRpJfBN5af35TwomRByaarqfv-qy7wP-Jar_SGZIwERLuQNYZ4SK_brgI6XJcc7qDmXjKIn55hRbH6NHAyzkgMj2FYLPiJQ2LaNcP7-Uvygq1iQNmGs13ZUlH8t2BH20);
+}
+
+.review-score{
+    color: white;
+}
+h2{
+    color: steelblue;
+}
+
+p{
+    color: #bdbdbd;
+    font-family: hina Mincho;
+}
+a{
+    color: yellow;
+}
