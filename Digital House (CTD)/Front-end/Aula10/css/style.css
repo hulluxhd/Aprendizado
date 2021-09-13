@@ -1,0 +1,54 @@
+.image{
+    background-image: url("https://wp.radiojhero.com/wp-content/uploads/2020/10/6f7455b4f10b241ad463057762f3170f.jpg");
+    height: 500px;
+    background-color: cadetblue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+
+    
+}
+button{
+    background-color: purple;
+    color: aquamarine;
+    padding: 10px 12px;
+    margin: 10px;
+    border-radius: 18px;
+    font-size: 25px;
+    
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+}
+
+body{
+   background-color: rgba(0, 0, 0, 0.87);
+   height: 1000px
+}
+
+.teste{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    
+}
+
+.teste02{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    left: 125px;
+    bottom: 75px;
+    border: 10px solid blue
+}
