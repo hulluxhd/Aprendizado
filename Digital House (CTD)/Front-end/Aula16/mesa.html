@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylemesa.css">
+</head>
+
+<body>
+
+    <head>
+        <div class="banner"></div>
+        <h1>Aprendendo pseudoclasses</h1>
+    </head>
+    <main class="container">
+        <ul>
+            <div class="listas">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </div>
+        </ul>
+        <section>
+            <h2>Checkbox</h2>
+            <form action="/teste" method="POST">
+                <fieldset>
+                    <legend>Checkbox</legend>
+                    <input type="checkbox" name="sushi" id="sushi">
+                    <label for="sushi">sushi</label>
+                    <input type="checkbox" name="sashimi" id="sashimi" checked>
+                    <label for="sashimi">sashimi</label>
+                    <input type="checkbox" name="algae" id="algae">
+                    <label for="algae">algae</label>
+                </fieldset>
+            </form>
+            <h2>Radio buttons</h2>
+            <form action="/teste" method="POST">
+                <fieldset>
+                    <legend>Radio buttons</legend>
+                    <input type="radio" name="teste" id="sim">
+                    <label for="sim">sim</label>
+                    <input type="radio" name="teste" id="nao">
+                    <label for="nao">não</label>
+                </fieldset>
+                <label for="agradabilidade"></label>
+                <select name="agradabilidade" id="agradabilidade">
+                    <option value="0" disabled selected>Escolha uma opção</option>
+                    <option value="1">Bom</option>
+                    <option value="2">Normal</option>
+                    <option value="3">Ruim</option>
+                </select>
+                <div class="botoes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

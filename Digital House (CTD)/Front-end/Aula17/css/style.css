@@ -1,0 +1,22 @@
+@keyframes rodando{
+    from{
+        transform: rotate(0) translate(0); 
+        
+
+    }
+    to{
+        transform: rotate(360deg) translate();
+    }
+}
+body{
+    background-color: blue;
+}
+img{
+    border-radius: 20px;
+    animation-name: rodando;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 200px;
+    height: 200px;
+}

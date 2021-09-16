@@ -1,4 +1,4 @@
-console.log(!!"")
-let x = 2
-let y = 3
-console.log(x==2)
+
+for(let i=0; i<50; i+=10){
+    console.log(i)
+}

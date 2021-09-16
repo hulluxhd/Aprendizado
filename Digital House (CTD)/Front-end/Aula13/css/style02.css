@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+body{
+    height: 600px;
+}
+
+main{
+    text-align: center;
+}
+
+.half1{
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0px;
+}
+
+.half2{
+    background-color: royalblue;
+    height: 300px;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    z-index:-2;
+}
+
+select, label{
+    text-align: center;
+    display: block;
+    margin: 0px auto 12px;
+}
+input{
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+
+button, textarea{
+    border-radius: 8px;
+}
+
+button{
+    background-color: rgba(65, 65, 201, 0.507);
+    color: white;
+}

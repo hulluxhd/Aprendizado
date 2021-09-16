@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 200px;
+}
+
+label, select{
+    display:block;
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
+
+select, legend{
+    margin:0px auto 15px;
+}
+
+body{
+    background-color: rgba(128, 54, 128, 0.842);
+}
+
+.metodoPagamento label, .opcionais label{
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+}
+
+.container{
+    padding: 0px 35%;
+}
