@@ -1,4 +1,4 @@
+const superHerois = require("./modulos/superHerois");
+const fs = require("fs");
 
-for(let i=0; i<50; i+=10){
-    console.log(i)
-}
+fs.writeFileSync('teste.txt', 'testando')

@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+}
+
+h1{
+    padding: 15px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    height: 400px;
+    
+}
+
+section{
+    padding: 60px;
+}
+
+section img{
+    width: 100%;
+}
+
+aside{
+    background-color: crimson;
+    color: white;
+    
+}
+
+aside li{
+    padding: 15px;
+    
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+aside ul li:hover{
+    background-color: navy;
+    color: white;
+    
+}
+
+aside ul li{
+    list-style-type: none;
+}

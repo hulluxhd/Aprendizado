@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body header{
+    background-color: blueviolet;
+    grid-area: header;
+    height: 75px;
+}
+
+body aside{
+    background-color: chartreuse;
+    grid-area: aside;
+}
+
+body main{
+    background-color: yellow;
+    grid-area: main;
+    height: 400px;
+}
+
+body footer{
+    background-color: tomato;
+    grid-area: footer;
+    height: 75px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer'
+    ;
+}

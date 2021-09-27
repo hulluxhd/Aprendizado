@@ -1,45 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
-.capa{
-    background-image: url(https://direcaoconsultoria.com.br/wp-content/uploads/2019/11/maracana%C3%BA.jpg);
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    width: 68%;
-    height: 400px;
-    background-position: center;
-}
-header{
-    padding: 15px;
-    background-color: rgba(0, 255, 255, 0.363);
-    
 }
 
-.capa{
-    width: 68%;
+header h1 {
+    padding: 15px;
+    text-align: center;
+    background-color: beige;
+
+}
+
+main div img{
+    height: 250px;
+    width: 100% ;
+}
+
+.container{
+    margin: 5% 25%;
 }
 
 iframe{
-    width: 900px;
-    height: 500px;
+    height: 250px;
+    width: 100%;
 }
 
-#cidade{
-    font-family: 'Merriweather';
-}
-p{
-    font-family: 'Roboto Mono' ;
-}
-
-button{
-    height: px;
-    width: 50px;
-    background-image: url(https://w7.pngwing.com/pngs/732/929/png-transparent-youtube-icon-youtube-play-button-computer-icons-youtube-angle-rectangle-logo-thumbnail.png);
-    background-position: center;
-
-}
-
-#youtube{
-    width: 50px;
+footer div a img{
+    position: fixed;
     height: 50px;
-    
+    width: 5vw;
+    bottom: 10px;
+    right: 10px;
+
 }

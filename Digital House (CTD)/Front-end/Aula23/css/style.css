@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30%;
+    margin: 0px auto;
+}
+header h2{
+    padding: 10px;
+    margin-right: auto;
+}
+
+header nav ul a{
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 10px;
+    position: relative;
+    right: 0px;
+
+   
+}
+
+#secoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#banner{
+    background-image: url("https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_CatherineFullBody.jpg");
+    height: calc(100vh - 69px);
+}
