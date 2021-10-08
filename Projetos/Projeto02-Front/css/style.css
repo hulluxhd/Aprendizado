@@ -1,0 +1,387 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    width: 75px;
+}
+
+
+.row{
+    padding: 0;
+}
+
+
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    font-size: 1rem;
+    color: #444;
+}
+
+
+header, .navbar{
+    background-color: #353D41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expand-lg #navbar-links .navbar-nav .nav-link{
+    padding: 1rem 0.8rem;
+
+}
+
+.navbar-expand-lg #navbar-links .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 9px; 
+    
+}
+
+/* slider */
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.main-btn{
+    text-decoration: none;
+    background-color: royalblue;
+    color: #FFF;
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: 5px solid royalblue;
+    transition: all 0.3s ease-in-out;
+    height: 60px;
+    width: 200px;
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: #FFF;
+    border-color: #65DAF9;
+    
+}
+
+.carousel-indicators .active{
+    background-color: #65DAF9;
+}
+
+#about-area{
+    background-color: #f9f9f9
+}
+
+.main-title{
+    color: #444;
+    font-size: 3rem;    
+}
+
+
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height:30px;
+}
+
+#about-list li i{
+    margin-right: 15px;
+    color: #65DAF9;
+}
+
+.row{
+    padding: 30px;
+}
+
+.ico{
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+}
+
+.ico i{
+    margin: 10px 0;
+}
+
+.ico + p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.service-item{
+    margin-bottom: 100px;
+}
+
+.ico h4{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+.ico:hover{
+    color: #65DAF9;
+}
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#data-area p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+#data-area{
+    background-image: url('../img/cidadeparallax.png');
+    background-attachment: fixed;
+}
+
+#empresa-text{
+    background-image: url('../img/pattern.png');
+    color: #FFF;
+    background-attachment: fixed;
+    
+}
+
+.banner2 .row{
+    padding: 30px 0px;
+    height: 500px;
+}
+
+.banner2 .container-fluid, .banner2 .row{
+    height: 100%;
+}
+
+.banner2 .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#empresa-text p, #empresa-text h4{
+    font-size: 1rem;
+    margin-bottom: 40px;    
+}
+
+#empresa-text p{
+    margin-bottom: 20px;
+}
+
+#apply-btn{
+        display: block;
+        height: auto;
+        width: 180px;
+        margin: 30px auto 10px;
+        background-color: transparent;
+        border-color: white;
+}
+
+#apply-btn:hover{
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+
+}
+
+#empresa-text h4{
+    margin-top: 8% ;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#empresa-img{
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    
+}
+
+.projects{
+    margin-bottom: 25px;
+}
+
+#project-title{
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+
+
+
+#email{
+    width: 75%;
+    border: #65DAF9 solid 2px;
+    border-radius: 25px 0 0 25px;
+    padding: 10px;
+}
+
+#inscreva{
+    width: 25%;
+    position: absolute;
+    border-width: 2px;
+    border-radius: 0px 25px 25px 0;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}
+
+#inscreva:hover{
+    font-weight: bold;
+    color: #65DAF9;
+    border-left: none;
+    background-color: #FFF;
+}
+
+.newsletter-sign{
+    padding-right: 0;
+   
+}
+
+.subscribe-btn{
+    padding-left: 0;
+}
+
+#final-area{
+    background-color: #f9f9f9;
+}
+
+.orcamento{
+    padding: 50px;
+    background-color: #65DAF9;
+    margin: 50px 0px;
+}
+
+.orcamento-txt{
+    font-weight: bold;
+    color: #FFF;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.orcamento-btn{
+    width: auto;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #FFF;
+    color: #65DAF9;
+    border: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.orcamento-btn:hover{
+    background-color: #FFF;
+    color: #65DAF9;
+    border:  #25add3 solid 4px;
+}
+
+#phone-txt{
+    font-size: 1.4rem;
+    color: #65DAF9;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.phone-number i{
+    display: block;
+    font-size: 2.5rem;
+}
+.phone-number{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#phone-num{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.contato-txt{
+    font-size: 3rem;
+}
+
+#borda{
+    margin-top: 100px;
+    border-bottom: 2px solid #65DAF9;
+    border-radius: 5px;
+    width: 75%;
+    margin: 100px auto;
+}
+
+.entrada{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #65DAF9;
+}
+
+#message-box{
+    font-size: 2rem;
+}
+
+#final{
+    background-color: rgba(78, 78, 76, 0.315);
+    margin-bottom: 0;
+    padding: 12px;
+}

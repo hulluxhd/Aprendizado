@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/59dc12f4d8.js" crossorigin="anonymous"></script>
+    <!--ProgressBar-->
+    <script src="./js/progressBar.min.js/script.js"></script>
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Projeto-01</title>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img src="img/hdcagency_logo.svg" id="logo" alt="Projeto-01"> Projeto-01
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation"><span
+                        class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" href="#" id="about-menu">Sobre a agência</a>
+                        <a class="nav-item nav-link" href="#" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" href="#" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" href="#" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" href="#" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/banner1.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, incidunt excepturi.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ea iure sapiente quae ipsum</p>
+                        <a href="#" class="main-btn">Ver portfólio</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner2.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, incidunt excepturi.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vero laudantium odio minima
+                        </p>
+
+                        <a href="#" class="main-btn">Ver portfólio</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner3.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, incidunt excepturi.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolore suscipit sequi.</p>
+                        <a href="#" class="main-btn">Ver portfólio</a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center mb-5">
+                            <h3 class="main-title">Lorem ipsum dolor sit am</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./img/agencia.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6 d-flex flex-direction-column  flex-wrap justify-content-start">
+                            <h3 class="about-title">lorem</h3>
+                            <p>Lorem ipsum dolor s Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                                deserunt beatae minima, asperiores</p>
+                            <p>Neque omnis consequatur optio quidem culpa eveniet. Dolorum mollitia </p>
+                            <p>Modi quibusdam. Nihil aliquid dolore ex quos iusto?Lorem ipsum, dolor sit amet
+                                consectetur adipisicing elit. Nisi ipsam harum nemo ullam enim ab earum temporibus?
+                                Corrupti eaque recusandae deserunt sapiente atq fuga error consectetur.</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</li>
+                                <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</li>
+                                <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</li>
+                                <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center mb-5">
+                            <h3 class="main-title">Lorem</h3>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="fas fa-mobile-alt fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="fas fa-shopping-cart fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="far fa-map fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="fas fa-ambulance fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="fas fa-rocket fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                        <div class="col-md-4 service-item">
+                            <div class="ico">
+                                <i class="fas fa-atom fa-7x"></i>
+                                <h4>lorem</h4>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, tempore cupiditate
+                                quos odit quae doloremque magni officia hic, beatae repellendus deserunt accusamus ad
+                                cumque dolorum molestiae harum laborum necessitatibus dignissimos?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="data-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 circle-box">
+                        <div id="circleA"></div>
+                        <p>Projetos entregues</p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 circle-box">
+                        <div id="circleB"></div>
+                        <p>Clientes Felizes</p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 circle-box">
+                        <div id="circleC"></div>
+                        <p>Colaboradores</p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 circle-box">
+                        <div id="circleD"></div>
+                        <p>Cafézinhos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team-area">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 mb-4">
+                        <h3 class="main-title">Lorem</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/profile1.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Pessoa 1</h4>
+                                    <h6 class="card-text">Profissão 1
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/profile2.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Pessoa 2</h4>
+                                    <h6 class="card-text">Profissão 2
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/profile3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Pessoa 3</h4>
+                                    <h6 class="card-text">Profissão 3
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="./img/profile4.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Pessoa 4</h4>
+                                    <h6 class="card-text">Profissão 4
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 apply-box" id="empresa-img"></div>
+                    <div class="col-md-6 apply-box" id="empresa-text">
+                        <h4>Lorem</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eius maxime perferendis quidem
+                            odio deleniti. Perspiciatis delectus, ea fuga, tempora laborum consectetur earum aliquid
+                            modi, molestias optio unde quae vitae.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sequi, dicta dolorum, porro
+                            ab. Culpa praesentium odio dolore voluptates voluptatibus.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur provident.
+                        </p>
+                        <a href="#" class="main-btn" id="apply-btn">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 id="project-title">Lorem</h2>
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj3.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj4.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj5.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4 projects">
+                        <img src="./img/proj6.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="final-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center mb-2 mt-2">
+                        <h3 id="news-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit!</h3>
+                    </div>
+                    <div class="col-12 text-center newsletter mt-2">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, hic tenetur! Eaque cum quia
+                            veniam eum.</p>
+                    </div>
+                    <div class="col-6 newsletter-sign text-end">
+                        <form action="#" method="POST">
+                            <input type="email" name="email" id="email">
+                        </form>
+                    </div>
+                    <div class="col-6 subscribe-btn">
+                        <a href="#" class="main-btn" id="inscreva">Se inscreva!</a>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center orcamento">
+                    <h3 class="orcamento-txt">Deseja fazer um orçamento sem compromisso?</h3>
+                    <a href="#" class="main-btn orcamento-btn">Orçar</a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contato mb-5 text-center">
+                        <h3 class="contato-txt">Entre em contato conosco!</h3>
+                    </div>
+                    <div class="col-md-4 phone-number">
+                        <i class="fas fa-phone-alt"></i>
+                        <p id="phone-txt">Ligue para: </p>
+                        <p id="phone-num">999999999</p>
+                    </div>
+                    <div class="col-md-4 phone-number">
+                        <i class="fas fa-envelope"></i>
+                        <p id="phone-txt">Envie um email: </p>
+                        <p id="phone-num">contato@teste.com.br</p>
+                    </div>
+                    <div class="col-md-4 phone-number">
+                        <i class="fas fa-map-marker"></i>
+                        <p id="phone-txt">Endereço: </p>
+                        <p id="phone-num">Rua lorem lorem, 143</p>
+                    </div>
+                    <div id="borda"></div>
+                </div>
+            </div>
+        </div>
+        <div id="final-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p id="message-box">Ou nos deixe uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="#" method="POST">
+                            <input type="email" name="email" placeholder=" E-mail" class="entrada" id="mail">
+                            <input type="text" name="texto" class="entrada"  placeholder=" Assunto" id="caixa-texto-assunto">
+                            <textarea name="text" placeholder=" Sua mensagem..." id="textao" class="entrada" cols="30" rows="5"></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="final" class="text-center">
+            <h6>Desenvolvido por Denny Ribeiro</h6>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
