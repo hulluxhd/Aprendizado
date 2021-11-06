@@ -1,0 +1,4 @@
+total 60
+-rw-r--r-- 1 hullux hullux  1566 set 25 19:50 index.html
+-rw------- 1 hullux hullux 47744 nov  2 20:57 ubuntu-xenial-16.04-cloudimg-console.log
+-rw-r--r-- 1 hullux hullux  4858 nov  2 20:55 vagrantfile

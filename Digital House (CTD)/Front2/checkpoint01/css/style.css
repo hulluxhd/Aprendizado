@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Formulário */
+
+
+.form{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+    width: 35%;
+    
+}
+
+.formulario{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+input{
+    border: 1px solid ;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* Seção */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 1px solid grey;
+    
+}
+
+.secao{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+
+img{
+    width: 50vw;
+}

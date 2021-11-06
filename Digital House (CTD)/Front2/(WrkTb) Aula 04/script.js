@@ -1,0 +1,8 @@
+let a = document.querySelector("h1")
+console.log(a)
+let b = document.querySelector(".conteudo")
+console.log(b)
+let c = document.querySelectorAll("ul li")
+console.log(c)
+let d = document.querySelector("section")
+console.log(d)
