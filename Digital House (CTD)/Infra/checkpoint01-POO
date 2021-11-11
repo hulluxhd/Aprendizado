@@ -1,0 +1,18 @@
+
+# Modelo de economia fechada e sem governo
+
+1. mercado de trabalho
+	trabalhador: Trabalhador
+	PEA: int
+			
+
+	------------
+	ofertaTrabalho()
+
+
+2. empresas
+	empresa: Empresa
+	totalEmpresas: int
+	
+	-----------
+	ofereceEmprego()
