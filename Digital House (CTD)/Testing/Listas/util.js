@@ -1,5 +1,5 @@
 exports.generateText = (name, age) => {
-  return `${name} (${age} anos)`;
+  return `${name} (${age} years old)`;
 };
 
 exports.createElement = (type, text, className) => {
