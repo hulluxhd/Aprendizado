@@ -1,0 +1,4 @@
+- telnet = informa se o servidor de rede está on
+- ping 
+- traceroute
+- tcpdump

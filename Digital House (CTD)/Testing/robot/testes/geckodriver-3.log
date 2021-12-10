@@ -1,0 +1,15 @@
+1638993275782	geckodriver	INFO	Listening on 127.0.0.1:53199
+1638993276236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38577" "-no-remote" "-profile" "/tmp/rust_mozprofileRFmn6k"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1638993278403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRFmn6k/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38577/devtools/browser/e2c502a3-7877-4ea5-9758-b55da5a0ad68
+1638993280435	Marionette	INFO	Listening on port 38899
+1638993280495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lpsW2_ffPYTZ8rZJjb0UUxqN4MuIngUyqdH9Px88Rrc.js line 1 > eval line 934 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1638993382570	Marionette	INFO	Stopped listening on port 38899
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

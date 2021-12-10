@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+#formulario-pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Cards */
+
+.card-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+
+.card-progress-bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.card-progress-bars .xp-progress, .max-level{
+    padding: 15px;
+    width: 100%;
+    background-color:gray;
+    border-radius: 10px;
+}
+
+.max-level{    
+    background-color: hotpink;
+}
+
+.card-progress-bars .progressao, .maximizando{
+    width: 0;
+    padding: 10px;
+    background-color: lawngreen;
+    border-radius: 10px;
+    
+}
+
+.lutando{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+/* */
+
+img{
+    height: 150px;
+    margin: 0 auto;
+}

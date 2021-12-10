@@ -1,0 +1,18 @@
+1639010038856	geckodriver	INFO	Listening on 127.0.0.1:35327
+1639010038868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44375" "-no-remote" "-profile" "/tmp/rust_mozprofileV71nXI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1639010040996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV71nXI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44375/devtools/browser/6cd31d4b-3270-49f9-960f-ca96fc871a49
+1639010042670	Marionette	INFO	Listening on port 36689
+1639010042717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1639010837254	Marionette	INFO	Stopped listening on port 36689
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

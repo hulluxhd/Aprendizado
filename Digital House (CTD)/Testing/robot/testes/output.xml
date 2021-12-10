@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.7 on linux)" generated="20211208 16:58:30.233" rpa="false" schemaversion="2">
+<suite id="s1" name="Mercadolivre" source="/home/hullux/Área de trabalho/Aprendizado/Digital House (CTD)/Testing/robot/testes/mercadolivre.robot">
+<test id="s1-t1" name="Mercado Livre">
+<kw name="Acessar o site do mercado Livre">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://mercadolivre.com.br</arg>
+<arg>Firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211208 16:58:30.401" level="INFO">Opening browser 'Firefox' to base url 'https://mercadolivre.com.br'.</msg>
+<msg timestamp="20211208 16:58:30.402" level="INFO">Firefox driver log is always forced to to: /home/hullux/Área de trabalho/Aprendizado/Digital House (CTD)/Testing/robot/testes/geckodriver-5.log</msg>
+<status status="PASS" starttime="20211208 16:58:30.401" endtime="20211208 16:59:03.296"/>
+</kw>
+<status status="PASS" starttime="20211208 16:58:30.400" endtime="20211208 16:59:03.297"/>
+</kw>
+<kw name="Faça uma busca por Iphone 12">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css=#cb1-edit</arg>
+<arg>iPhone12</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211208 16:59:03.299" level="INFO">Typing text 'iPhone12' into text field 'css=#cb1-edit'.</msg>
+<status status="PASS" starttime="20211208 16:59:03.298" endtime="20211208 16:59:03.705"/>
+</kw>
+<kw name="Click Element css=body &gt; header &gt; div &gt; form &gt; button">
+<msg timestamp="20211208 16:59:03.716" level="FAIL">No keyword with name 'Click Element css=body &gt; header &gt; div &gt; form &gt; button' found.</msg>
+<status status="FAIL" starttime="20211208 16:59:03.716" endtime="20211208 16:59:03.716"/>
+</kw>
+<status status="FAIL" starttime="20211208 16:59:03.297" endtime="20211208 16:59:03.721"/>
+</kw>
+<kw name="Clicar no primeiro resultado da busca">
+<status status="NOT RUN" starttime="20211208 16:59:03.721" endtime="20211208 16:59:03.721"/>
+</kw>
+<status status="FAIL" starttime="20211208 16:58:30.399" endtime="20211208 16:59:03.723">No keyword with name 'Click Element css=body &gt; header &gt; div &gt; form &gt; button' found.</status>
+</test>
+<status status="FAIL" starttime="20211208 16:58:30.235" endtime="20211208 16:59:03.738"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Mercadolivre">Mercadolivre</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
