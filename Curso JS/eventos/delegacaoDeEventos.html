@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button>
+            botao 1
+        </button>
+        <button>
+            botao 2
+        </button>
+        <button>
+            botao 3
+        </button>
+    </div>
+
+
+
+    <script>
+        const container = document.querySelector('.container')
+        const btns = container.querySelectorAll('button')
+        const btnArray = Array.from(btns)
+
+      /*   btns.forEach(el => {
+            el.addEventListener('click', function(event){
+                console.log(event.target)
+            })
+        }) */
+
+        container.addEventListener('click', function(event){
+            if(event.target.nodeName === 'BUTTON'){
+            console.log(event.target)
+        }
+        })
+
+
+    </script>
+</body>
+</html>
