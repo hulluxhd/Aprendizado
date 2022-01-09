@@ -46,14 +46,16 @@
     console.log(dateLeft/SECONDS)
     console.log(secondsLeft)
 
-    addToHTML(daysLeft, hoursLeft, minutesLeft, secondsLeft)
-
+    
+    
+    
     function addToHTML(dia, hora, minuto, segundo){
         const p = document.createElement('p')
         p.textContent = `Contagem: ${dia} dias, ${hora} horas, ${minuto} minutos, ${segundo} segundos`
         document.querySelector('.hero-content').insertAdjacentElement('beforeend', p)
     }
-
+    
+   
 
 
 
