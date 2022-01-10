@@ -1,0 +1,26 @@
+#Propriedade Style
+Serve para setar e recuperar os estilos adicionados a um determinado elemento.
+
+let prop = elemento.style.Propriedade // recuperando
+elemento.style.Propriedade = 'valor'
+
+# Objeto classlist
+Com o classlist teremos os métodos 
+add() - que adiciona uma classe a um elemento -, 
+remove() - que remove uma classe - e 
+toggle() - que irá fazer um 'switch', ligando e desligando a classe
+
+Não obstante, podemos usar também a propriedade className, contudo, ela irá apagar todas as classes que já existem, sobreescrevendo-as
+
+# Estilo Computado
+Os estilos que são computados ficam salvos no objeto window, e podemos acessá-los com o método getComputedStyle(elemento).propriedade // retorna a propriedade COMPUTADA 
+
+# Tamanho e posição em relação ao  documento
+elemento.offsetHeight -> altura do elemento em relação ao documento
+elemento.offsetWidth -> largura do elemento em relação ao documento
+elemento.offsetLeft -> distância horizontal do elemento em relação ao documento
+elemento.offsetTop -> distância vertical do elemento em relação ao documento
+
+# Posição em relação à viewport (à área visível)
+elemento.getBoundingClientRect() -> retorna um objeto com algumas propriedades do elemento em relação À ÁREA VÍSIVEL (viewport)
+

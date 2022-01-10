@@ -1,0 +1,41 @@
+// BOM - Browser Object Model
+
+// é um objeto que oferece propriedades e métodos quando queremos configurar o browser
+
+// innerHeight e innerWidth - são propriedades relativas ao tamanho da área útil do browser
+
+// outerHeight e outerWidth - são propriedades absolutas da área do browser
+
+// screenX e screenY - dizem respeito a posição do browser na tela
+
+// Objeto History - serve para ajudar na navegação do usuário. Cria um histórico de navegação, que o usuário pode avançar ou retornar de acordo com a programação
+
+// location - a interface Location representa a localização do objeto a qual ele está associado. Mudanças feitas na interface serão refletidas nos objetos relacionados a ela (Document, Window)
+
+// navigator - Objeto que guarda informações sobre o User Agent. Dá "dicas" sobre quem está visualizando aquela página
+
+// screen - Objeto que guarda informações sobre a tela do usuário, e não do browser. Existem alguns métodos disponíveis para o objeto Screen. 
+// métodos de window - alert() confirm() prompt() | open() close() print()
+
+// open() - abre uma página
+// close() - fecha uma página. Só funciona se a página for aberta com o open()
+// print() - abre uma janela de impressão
+
+// vale notar que se uma página for aberta com open(), ela terá um objeto chamado 'opener', que é uma cópia do objeto Window original, i.e da página que a abriu, e você pode ter acesso à variáveis e funções da página original 
+
+// Métodos úteis para realizar algum scroll na página, ou obter a posição de um scroll
+// scrollTo(x,y) | scrollBy(x,y) -> scrollTo vai descer a tela até as poisções especificadas em x e y, fixas. scrollBy vai movimentar a tela, movendo a quantidade de pixels passadas por parâmetro, flexível.
+
+// propriedades úteis
+// pageXOffset | pageYOffset -> xOffset indica o quanto foi scrollado no eixo x. yOffset indica o quanto foi scrolllado no eixo y.
+
+
+// PRINCIPAIS eventos referentes ao BOM
+// load e DOMContentloaded
+// são semelheantes em suas funções: disparam um evento quando a página terminar de ser carregada. Contudo, o load só dispara quando TODOS os assets forem carregados e disponibilizados, enquanto o DOMContentloaded é disparado assim que os elementos do DOM, isto é, os nós, forem carregados
+
+// resize e scroll
+// são disparados quando o browser é manipulado (diminuido, aumentado) ou quando ocorre um scroll para cima ou para baixo
+
+// unload e beforeunload
+// são disparados quando o browser é fechado

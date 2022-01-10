@@ -39,3 +39,11 @@ let b8 = a1.some(el => {
     typeof el === "string"
 })
 console.log(b8)
+
+
+let b9 = [-1, -2, -5, 0, 4, 10, 12]
+const b10 = b9.filter(el =>{
+    return el <= 0
+})
+
+console.log(b10)
