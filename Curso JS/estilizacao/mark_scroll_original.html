@@ -190,11 +190,38 @@
 
     <script>
 
-        (function(){
-            window.addEventListener('scoll', destacaMenu)
-            function destacaMenu(){
+        (function () {
+
+            // pega todos os elementos <a>
+            const idsAncora = document.querySelectorAll('.nav ul a')
+
+
+
+            window.addEventListener('scroll', destacaMenu)
+            function destacaMenu() {
+                // criar um array com a POSIÇÃO de cada um dos elementos dos links
+                let positions = [...idsAncora].map(link => {
+                    const section = document.querySelector(link.getAttribute('href')).getBoundingClientRect()
+                    return section.top // posição em relação ao top
+                })
+                let linkAtivo = ultimoElementoVisto(positions) // função que pega o último elemento de uma rray
                 
+                // faz os testes: há algum outro elemento com a classe actived? Se sim, retira-a, senão, adiciona-a
+                let temActive = document.querySelector('.actived')
+                if (temActive) { temActive.classList.remove('actived') }
+                if (linkAtivo) {
+                    return linkAtivo.classList.add('actived')
+                }
+                return idsAncora[0].classList.add('actived')
+
             }
+            // função que procurará por um valor de distância em relação ao topo toda vez que for executada junto com o scroll
+            function ultimoElementoVisto(_positions) { // _positions é um array
+                let positionUnderZero = _positions.filter(el => el < innerHeight / 2) // filtra os elementos que tem uma distância do topo menor que o viewport / 2
+                return idsAncora[positionUnderZero.length - 1] // retorna o h2 na posição em que o último elemento foi encontrado (length - 1 sempre vai ser o último elemento)
+
+            }
+            destacaMenu() // chama-se a função para ela executar a expressão "return idsAncora[0].classList.add('actived')", caso não as outras variáveis sejam null
         })()
 
     </script>
