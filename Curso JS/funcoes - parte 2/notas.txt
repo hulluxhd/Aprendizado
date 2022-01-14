@@ -1,0 +1,81 @@
+# Arrow Functions
+* Não são "içadas". Ou seja, para chamá-las, deve criá-las primeiro, diferentemente da function expression
+
+# Escopo: léxico vs dinâmico
+
+Function declaration vai ser dinâmica, enquanto uma arrow function não. Por exemplo, se utilizar o método "this" dentro de uma arrow, o que será retornado é o objeto Global. Na expression ou declaration, o 'this' será dinâmico e dependerá de quem o está chamando.
+
+Contudo, vale guardar na memória que o 'this' dentreo de uma arrow é imutável e se quiser usá-lo dentro de funções, é útil para guardar o valor já alterado do 'this'.
+
+
+# Métodos de objetos
+É uma função guardada dentro de uma propriedade de objeto, que recebe o nome de método do objeto
+
+# Call and Apply
+São métodos para executar uma função, mas que dão um poder a mais de modificar o 'this' dessa mesma função
+
+Usando o método Call, executa uma ação e muda o 'this' (se for o caso)
+O método Apply faz a mesma coisa, mas passa-se os argumentos como array
+
+# Closures
+É a capacidade de uma função de enxergar as variáveis que estavam ao seu redor no momento em que ela foi declarada
+
+# Encadeamento (Chain)
+É o encadeamento de vários métodos em um determinado objeto, elemento, etc.
+
+# Reveal Pattern
+É uma prática adotada antes da utilização dos bundles e webpacks que aumenta a segurança da aplicação, impedindo que erros do tipo 'variável reatribuída' ocorram, moldando o Escopo das variáveis como 'privados'. Isto pode ser feito guardando módulos que contém apenas uma aplicação, dentro de uma função autoinvocável (guardada dentro de uma variável), que por sua vez pode ter funções e variáveis LOCAIS e ainda retornar um objeto que guarde todas essas funções
+
+ex
+    const revealPattern = (function(){
+        let n = 0
+
+        function somar(_n){
+            n += _n
+            return this
+        }
+
+        function subtrair(_n){
+            n -= _n
+            return this
+        }
+
+        return {
+            somar,
+            subtrair
+        }
+    })()
+
+// Factories Functions
+É como se fosse um construtor? Onde vai instanciar um novo objeto? Contudo, um construtor tem suas propriedades passadas por parâmetros e utiliza 'new', enquanto nas factories as propriedades são definidas na própria função
+
+function CriarCachorro(nome){
+    let posicao = 0
+
+    return { // vai retornar um objeto
+        name: nome,
+        latir(){
+            console.log('this.name', 'está latindo')
+        }
+        andar(n){
+            posicao += n
+            return `${this.name} andou ${n} metros. Sua posicao atual é ${posicao}`
+        }
+    }
+}
+
+const cachorro1 = CriarCachorro('Graham')
+cachorro1.latir()
+cachorro1.andar(100)
+
+# Construtores
+
+
+# Rest operator
+
+function teste(n1, n2, ...restante){
+    return restante
+}
+
+teste(1,2,3,4,5,6) // [3,4,5,6]
+
