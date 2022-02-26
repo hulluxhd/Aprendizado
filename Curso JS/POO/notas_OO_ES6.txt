@@ -1,0 +1,17 @@
+# Utilizando a sintaxe do ecmascript 6 para modelar orientação a objetos
+
+* class - cria uma classe que será intanciada
+sintaxe
+class Animal{
+    constructor(nome, tipo){
+        this.nome = nome
+        this.tipo = tipo
+    }
+    obterTipo(){
+        return this.tipo
+    }
+}
+
+O método 'constructor' gerará uma instância e deve ser utilizado na declaração da classe
+
+* Utilizando a sintaxe class, podemos inserir métodos dentro de uma classe, mas não conseguimos adicionar propriedades (somente dentro do construtor). Para isso é necessário colocá-las dentro do seu prototype 

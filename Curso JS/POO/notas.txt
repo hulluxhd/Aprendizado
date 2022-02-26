@@ -1,0 +1,41 @@
+#POO
+
+* No javascript, prototype é a base para herança. 
+* A palavra reservada 'class' pode ser usada para a criação das classes. Contudo, por debaixo dos panos, sua criação é sempre com a utilização de functions. Extends também
+* Object() é uma função construtora da qual todos os objetos são instanciados
+
+* Ao criar uma função construtora, ela recebe uma propriedade chamada prototype
+* prototype, por sua vez, é um objeto que tem diversas propriedades como {name, arguments, caller, length}
+* Uma instância de uma classe tem um método chamado __proto__ que é uma forma de, a partir do objeto, acessar o objeto prototype guardado na (((função construtora)))
+* Portanto, podemos definir novos métodos para a função construtora PELO PROTOTYPE DELA
+* Quando chamamos um método dentro de um construtor, se o js não encontrar irá procurar no prototype do construtor (__proto__), e continuará procurando em instâncias superiores até encontrar - chegando até Object.prototype
+* É deste jeito que o polyfill pode ser feito e um método não disponível em navegadores anteriores ser criado, dentro do prototype
+
+* Você também pode criar suas funções e adicioná-las ao prototype de arrays ou objetos, por exemplo
+
+* TODO OBJETO VAI TER UM PROTOTYPE (e __proto__ para subir os níveis)
+
+# Herança com prototype
+
+Uma forma um pouco antiga de gerar heranças no javascript é modelando os prototypes
+
+exemplo
+function Animal(tipo){
+    this.tipo = tipo
+}
+
+Animal.prototype.obterTpo = function (){
+    return this.tipo
+}
+
+function Cachorro(nome, tipo){
+    this.nome = nome
+    Animal.call(this //próprio obj, tipo)
+    this.constructor = Animal // informa que o construtor de Cachorro é a classe Animal
+}
+
+# métodos de prototypes
+* hasOwnProperty() // retorna true se o método de uma função for dela mesmo, e não de um protótipo
+* instaceof // retorna se é uma instância de um determinado obj (teste instaceof Teste) 
+
+* isPrototypeOf() // verifica se um prototype é protótipo de um outro objeto  
